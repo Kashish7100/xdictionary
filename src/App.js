@@ -34,12 +34,8 @@ const App = () => {
       />
       <button onClick={handleSearch} style={{ padding: "8px 12px" }}>Search</button>
       <div style={{ marginTop: "20px" }}>
-        {definition && (
-          <>
-            <h3>Definition:</h3>
-            <p>{definition}</p>
-          </>
-        )}
+        <h3>Definition:</h3>  
+        <p>{definition}</p> 
       </div>
     </div>
   );
